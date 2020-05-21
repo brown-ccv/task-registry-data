@@ -30,7 +30,7 @@ lab:
   developers:                                     # [Array::String, optional]
     - DEVELOPER_1
     - DEVELOPER_2
-  website: https://example.com
+  website: https://example.com                    # [String::URL, optional]
 platform:                                         # [Boolean, optional]
   desktop:
     windows: false
