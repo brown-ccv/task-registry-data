@@ -18,25 +18,27 @@ is present or the required fields are missing. Please create a new issue with th
 YML template with specifications:
 
 ```yml
-taskName: realest # [String, required]
+taskName: Example Task                            # [String, required]
 links: 
-  deployment: https://realest.com # [String::URL, optional]
-  sourceCode: https://github.com/realest/task # [String::URL, required]
-  publication: https://realest.com # [String::URL, optional]
+  deployment: https://example.com                 # [String::URL, optional]
+  sourceCode: https://github.com/example/task     # [String::URL, required]
+  publication: https://example.com                # [String::URL, optional]
 framework:
-  library: # [Array::String, optional]
-    - realest 
-  language: # [Array::String, optional]
-    - realest
+  library:                                        # [Array::String, optional]
+    - LIBRARY_1 
+    - LIBRARY_2
+  language:                                       # [Array::String, optional]
+    - LANGUAGE_1
     - LANGUAGE_2
 lab:
-  name: realest# [String, required]
-  institution: realest# [String, required]
-  principalInvestigator: # [String, optional]
-  developers: # [Array::String, optional]
-    - realest
-  website: https://realest.com
-platform: # [Boolean, optional]
+  name:                                           # [String, required]
+  institution:                                    # [String, required]
+  principalInvestigator:                          # [String, optional]
+  developers:                                     # [Array::String, optional]
+    - DEVELOPER_1
+    - DEVELOPER_2
+  website: https://example.com
+platform:                                         # [Boolean, optional]
   desktop:
     windows: false
     linux: false
@@ -44,12 +46,15 @@ platform: # [Boolean, optional]
   mobile:
     ios: false
     android: false
-features: # [Boolean, optional]
+features:                                         # [Boolean, optional]
   electron: false
-  browser: true
+  browser: false
   docker: false
   eegTrigger: false
   mturk: false
-tags: # [Array::String, optional]
-  - realest
+tags:                                             # [Array::String, optional]
+  - TAG_1
+  - TAG_2
+  - TAG_3
+  - TAG_4
 ```
