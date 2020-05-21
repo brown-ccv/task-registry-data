@@ -1,0 +1,16 @@
+{
+  "name": "task-registry-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rashi Dhar",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "yaml": "^1.7.2"
+  }
+}
