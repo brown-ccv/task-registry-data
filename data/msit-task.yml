@@ -4,8 +4,12 @@ links:
   sourceCode: 'https://github.com/msit/task'
   publication: 'https://msit.com'
 framework:
-  library: null
-  language: null
+  library:
+    - jspsych
+    - react
+  language:
+    - javascript
+    - python
 lab:
   name: Lab name
   institution: Brown University
