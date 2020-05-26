@@ -48,8 +48,6 @@ jobs:
     needs: issue-jobs
     steps:
     - uses: actions/checkout@v2
-    - name: mkdir
-      run: mkdir data
     - name: Create file
       working-directory: ./data
       run: echo "${{env.FILE_DATA}}" > '${{env.FILE_NAME}}.yml'
