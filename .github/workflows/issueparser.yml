@@ -56,9 +56,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: echo file data
-      run: |
-        echo  "${{env.FILE_DATA}}"
     - name: Create file 
       working-directory: ./data
       run: echo "${{env.FILE_DATA}}" > '${{env.FILE_NAME}}.yml'
