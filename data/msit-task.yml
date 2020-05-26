@@ -30,5 +30,7 @@ features:
   docker: false
   eegTrigger: false
   mturk: false
-tags: null
+tags:
+  - tag
+  - task
 
