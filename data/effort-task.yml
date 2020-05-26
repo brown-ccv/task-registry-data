@@ -1,0 +1,34 @@
+taskName: Effort Task
+links:
+  deployment: 'https://effort.com'
+  sourceCode: 'https://github.com/effort/task'
+  publication: null
+framework:
+  library:
+    - react
+    - jspsych
+  language:
+    - javascript
+    - python
+lab:
+  name: Lab Name
+  institution: Brown University
+  principalInvestigator: null
+  developers: null
+  website: null
+platform:
+  desktop:
+    windows: false
+    linux: false
+    mac: false
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: false
+  browser: false
+  docker: false
+  eegTrigger: false
+  mturk: false
+tags: null
+
