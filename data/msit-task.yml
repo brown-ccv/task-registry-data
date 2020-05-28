@@ -1,8 +1,6 @@
 taskName: MSIT Task
 links:
-  deployment: 'https://msit.com'
-  sourceCode: 'https://github.com/msit/task'
-  publication: 'https://msit.com'
+  sourceCode: 'https://github.com/brown-ccv/task-msit'
 framework:
   library:
     - jspsych
@@ -18,17 +16,19 @@ lab:
   website: null
 platform:
   desktop:
-    windows: false
-    linux: false
-    mac: false
+    windows: true
+    linux: true
+    mac: true
   mobile:
     ios: false
     android: false
 features:
-  electron: false
+  electron: true
   browser: false
   docker: false
-  eegTrigger: false
-  mturk: false
-tags: null
+  eegTrigger: true
+  mturk: true
+tags:
+  - msit
+  - numbers
 
