@@ -11,7 +11,8 @@ assignees: ''
 Fill in the below yml template as per the specification in the comments.
 You can view the preview side-by-side for the yml below you are editing and see changes reflected in real-time as you edit.
 ```yml
-taskName: Example Task                            # [String, required]
+# YML template does not require Strings and Boolean to be in quotes, also URL.
+taskName: Example Task                            # [String, required] 
 links: 
   deployment: https://example.com                 # [String::URL, optional]
   sourceCode: https://github.com/example/task     # [String::URL, required]

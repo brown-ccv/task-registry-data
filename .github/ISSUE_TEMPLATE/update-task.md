@@ -2,7 +2,7 @@
 name: Update Task
 about: Describe this issue template's purpose here.
 title: Modify [Task Name]
-labels: update data
+labels: ''
 assignees: ''
 
 ---
