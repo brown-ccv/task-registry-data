@@ -2,7 +2,7 @@ name: Add New Task
 
 on:
   issues:
-    types: [opened, reopened]
+    types: [opened, reopened, edited]
 
 jobs:
   build:
@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Check issue change
+        run: echo github.event.issue
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
