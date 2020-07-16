@@ -11,8 +11,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Check issue change
-        run: echo github.event.issue
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
