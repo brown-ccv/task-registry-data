@@ -1,0 +1,35 @@
+taskName: edits to issue testing 1
+links:
+  deployment: 'https://test.com'
+  sourceCode: 'https://github.com/test/task'
+  publication: 'https://test.com'
+framework:
+  library:
+    - test
+    - test
+  language:
+    - test
+    - test
+lab:
+  name: test
+  institution: test
+  principalInvestigator: null
+  developers: []
+  website: 'https://example.com'
+platform:
+  desktop:
+    windows: false
+    linux: false
+    mac: false
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: false
+  browser: false
+  docker: false
+  eegTrigger: false
+  mturk: false
+tags:
+  - test
+
