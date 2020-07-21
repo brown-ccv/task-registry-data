@@ -1,0 +1,41 @@
+taskName: Effort Task
+links:
+  deployment: 'https://task-effort.web.app/'
+  sourceCode: 'https://github.com/lnccbrown/task-effort'
+  publication: null
+framework:
+  library:
+    - jsPsych
+    - React
+  language:
+    - JavaScript
+lab:
+  name: LNCC
+  institution: Brown University
+  principalInvestigator: Michael J Frank
+  developers:
+    - Wasita Mahaphanit
+    - Rashi Dhar
+  website: 'https://lnccbrown.com'
+platform:
+  desktop:
+    windows: true
+    linux: true
+    mac: true
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: true
+  browser: true
+  docker: false
+  eegTrigger: true
+  mturk: true
+  psiturk: true
+  firebase: true
+  prolific: true
+tags:
+  - balloon effort task
+  - decision making
+  - effort
+
