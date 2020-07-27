@@ -18,12 +18,13 @@ links:
   sourceCode: https://github.com/example/task     # [String::URL, required]
   publication: https://example.com                # [String::URL, optional]
 framework:
-  library:                                        # [Array::String, optional]
-    - LIBRARY_1 
-    - LIBRARY_2
-  language:                                       # [Array::String, optional]
-    - LANGUAGE_1
-    - LANGUAGE_2
+  - name: FRAMEWORK_1                             # [Array::String, optional]
+    link: LINK_TO_FRAMEWORK_1                     # [String::URL, optional] 
+  - name: FRAMEWORK_2                             # [Array::String, optional]
+    link: LINK_TO_FRAMEWORK_2                     # [String::URL, optional]
+language:                                         # [Array::String, optional]
+  - LANGUAGE_1
+  - LANGUAGE_2
 lab:
   name:                                           # [String, required]
   institution:                                    # [String, required]
