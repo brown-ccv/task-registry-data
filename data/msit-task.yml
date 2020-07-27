@@ -2,12 +2,13 @@ taskName: MSIT Task
 links:
   sourceCode: 'https://github.com/brown-ccv/task-msit'
 framework:
-  library:
-    - jspsych
-    - react
-  language:
-    - javascript
-    - python
+  - name: jspsych
+    link: https://www.jspsych.org/
+  - name: react
+    link: https://reactjs.org
+language:
+  - javascript
+  - python
 lab:
   name: Lab name
   institution: Brown University

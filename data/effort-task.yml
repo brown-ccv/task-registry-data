@@ -4,11 +4,12 @@ links:
   sourceCode: 'https://github.com/lnccbrown/task-effort'
   publication: null
 framework:
-  library:
-    - jsPsych
-    - React
-  language:
-    - JavaScript
+  - name: jspsych
+    link: https://www.jspsych.org/
+  - name: react
+    link: https://reactjs.org
+language:
+  - JavaScript
 lab:
   name: LNCC
   institution: Brown University
