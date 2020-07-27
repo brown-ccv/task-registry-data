@@ -25,14 +25,14 @@ framework:
 language:                                         # [Array::String, optional]
   - LANGUAGE_1
   - LANGUAGE_2
-lab:
-  name:                                           # [String, required]
-  institution:                                    # [String, required]
-  principalInvestigator:                          # [String, optional]
-  developers:                                     # [Array::String, optional]
-    - DEVELOPER_1
-    - DEVELOPER_2
-  website: https://example.com                    # [String::URL, optional]
+lab:                                              # list of the labs who collaborated.
+  - name:                                           # [String, required]
+    institution:                                    # [String, required]
+    principalInvestigator:                          # [String, optional]
+    developers:                                     # [Array::String, optional]
+      - DEVELOPER_1
+      - DEVELOPER_2
+    website: https://example.com                    # [String::URL, optional]
 platform:                                         # [Boolean, optional]
   desktop:
     windows: false

@@ -10,11 +10,11 @@ language:
   - javascript
   - python
 lab:
-  name: Lab name
-  institution: Brown University
-  principalInvestigator: null
-  developers: null
-  website: null
+  - name: Lab name
+    institution: Brown University
+    principalInvestigator: null
+    developers: null
+    website: null
 platform:
   desktop:
     windows: true

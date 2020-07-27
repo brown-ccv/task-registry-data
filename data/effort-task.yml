@@ -11,13 +11,13 @@ framework:
 language:
   - JavaScript
 lab:
-  name: LNCC
-  institution: Brown University
-  principalInvestigator: Michael J Frank
-  developers:
-    - Wasita Mahaphanit
-    - Rashi Dhar
-  website: 'https://lnccbrown.com'
+  - name: LNCC
+    institution: Brown University
+    principalInvestigator: Michael J Frank
+    developers:
+      - Wasita Mahaphanit
+      - Rashi Dhar
+    website: 'https://lnccbrown.com'
 platform:
   desktop:
     windows: true
