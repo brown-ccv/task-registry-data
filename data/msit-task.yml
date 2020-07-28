@@ -1,8 +1,8 @@
 taskName: MSIT Task
 links:
   sourceCode: 
-  access: public
-  link: 'https://github.com/brown-ccv/task-msit'
+    access: public
+    link: 'https://github.com/brown-ccv/task-msit'
 framework:
   - name: jspsych
     link: https://www.jspsych.org/
