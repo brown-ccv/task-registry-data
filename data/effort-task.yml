@@ -1,7 +1,9 @@
 taskName: Effort Task
 links:
   deployment: 'https://task-effort.web.app/'
-  sourceCode: 'https://github.com/lnccbrown/task-effort'
+  sourceCode: 
+    access: public
+    link: 'https://github.com/lnccbrown/task-effort'
   publication: null
 framework:
   - name: jspsych

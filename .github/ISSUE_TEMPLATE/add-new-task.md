@@ -11,11 +11,14 @@ assignees: ''
 Fill in the below yml template as per the specification in the comments.
 You can view the preview side-by-side for the yml below you are editing and see changes reflected in real-time as you edit.
 ```yml
-# YML template does not require Strings and Boolean to be in quotes, also URL.
+# YML template does not require Strings(also URL) and Boolean to be in quotes.
+# Please add a valid URL starting with https.
 taskName: Example Task                            # [String, required] 
 links: 
   deployment: https://example.com                 # [String::URL, optional]
-  sourceCode: https://github.com/example/task     # [String::URL, required]
+  sourceCode: 
+    access: private/public                        # [String, required] Stating if the GitHub repository is private or public.
+    link: https://github.com/example/task         # [String::URL, optional] If the repository is public, provide URL.
   publication: https://example.com                # [String::URL, optional]
 framework:
   - name: FRAMEWORK_1                             # [Array::String, optional]
@@ -25,7 +28,7 @@ framework:
 language:                                         # [Array::String, optional]
   - LANGUAGE_1
   - LANGUAGE_2
-lab:                                              # list of the labs who collaborated.
+lab:                                              # List of the labs who collaborated.
   - name:                                           # [String, required]
     institution:                                    # [String, required]
     principalInvestigator:                          # [String, optional]
