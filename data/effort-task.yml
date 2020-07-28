@@ -6,10 +6,8 @@ links:
     link: 'https://github.com/lnccbrown/task-effort'
   publication: null
 framework:
-  - name: jspsych
-    link: https://www.jspsych.org/
-  - name: react
-    link: https://reactjs.org
+  - name: neuro-task-starter
+    link: https://github.com/brown-ccv/neuro-task-starter
 language:
   - JavaScript
 lab:

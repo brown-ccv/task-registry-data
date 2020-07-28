@@ -4,10 +4,8 @@ links:
     access: public
     link: 'https://github.com/brown-ccv/task-msit'
 framework:
-  - name: jspsych
-    link: https://www.jspsych.org/
-  - name: react
-    link: https://reactjs.org
+  - name: neuro-task-starter
+    link: https://github.com/brown-ccv/neuro-task-starter
 language:
   - javascript
   - python
