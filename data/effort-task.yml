@@ -1,5 +1,5 @@
 taskName: Effort Task
-links:
+about:
   deployment: 'https://task-effort.web.app/'
   sourceCode: 
     access: public

@@ -14,7 +14,8 @@ You can view the preview side-by-side for the yml below you are editing and see 
 # YML template does not require Strings(also URL) and Boolean to be in quotes.
 # Please add a valid URL starting with https.
 taskName: Example Task                            # [String, required] 
-links: 
+about: 
+  description: A short description of the task    # [String::URL, required]
   deployment: https://example.com                 # [String::URL, optional]
   sourceCode: 
     access: private/public                        # [String, required] Stating if the GitHub repository is private or public.
