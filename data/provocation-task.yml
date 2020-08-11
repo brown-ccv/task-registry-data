@@ -1,0 +1,46 @@
+taskName: Provocation Task
+about:
+  description: Rate distress from 0-10 in response to neutral or provoking images
+  deployment: null
+  sourceCode:
+    access: private
+    link: null
+  publication: null
+framework:
+  - name: neuro-task-starter
+    link: 'https://github.com/brown-ccv/neuro-task-starter'
+language:
+  - javascript
+lab:
+  - name: Borton
+    institution: Brown University
+    principalInvestigator: David Borton
+    developers:
+      - Nicole Provenza
+    website: 'http://borton.engin.brown.edu/'
+  - name: CCV
+    institution: Brown University
+    principalInvestigator: null
+    developers:
+      - Fernando Gelin
+      - Mary McGrath
+    website: 'https://ccv.brown.edu'
+platform:
+  desktop:
+    windows: true
+    linux: true
+    mac: true
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: true
+  browser: false
+  docker: false
+  eegTrigger: true
+  mturk: true
+tags:
+  - provocation
+  - OCD
+  - distress
+
