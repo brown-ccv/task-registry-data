@@ -15,7 +15,7 @@ You can view the preview side-by-side for the yml below you are editing and see 
 # Please add a valid URL starting with https.
 taskName: Example Task                            # [String, required] 
 about: 
-  description: A short description of the task    # [String::URL, required]
+  description: A short description of the task    # [String, required]
   deployment: https://example.com                 # [String::URL, optional]
   sourceCode: 
     access: private/public                        # [String, required] Stating if the GitHub repository is private or public.
