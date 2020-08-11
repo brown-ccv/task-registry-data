@@ -1,0 +1,45 @@
+taskName: Resting Stage Task
+about:
+  description: 'Resting state: saccades, blink, eyes closed, eyes open'
+  deployment: null
+  sourceCode:
+    access: public
+    link: 'https://github.com/brown-ccv/task-resting-state'
+  publication: null
+framework:
+  - name: neuro-task-starter
+    link: 'https://github.com/brown-ccv/neuro-task-starter'
+language:
+  - javascript
+lab:
+  - name: Borton
+    institution: Brown University
+    principalInvestigator: David Borton
+    developers:
+      - Nicole Provenza
+      - Evan Dastin-van Rijn
+      - Sarah Branse
+    website: 'http://borton.engin.brown.edu/'
+  - name: CCV
+    institution: Brown University
+    principalInvestigator: null
+    developers:
+      - Fernando Gelin
+    website: 'https://ccv.brown.edu'
+platform:
+  desktop:
+    windows: true
+    linux: true
+    mac: true
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: true
+  browser: false
+  docker: false
+  eegTrigger: true
+  mturk: true
+tags:
+  - rest
+
