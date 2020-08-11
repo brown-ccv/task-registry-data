@@ -1,20 +1,30 @@
 taskName: MSIT Task
 about:
-  sourceCode: 
+  description: Multi-Source Interference Task
+  deployment: null
+  sourceCode:
     access: public
     link: 'https://github.com/brown-ccv/task-msit'
+  publication: 'https://pubmed.ncbi.nlm.nih.gov/17406250/'
 framework:
   - name: neuro-task-starter
-    link: https://github.com/brown-ccv/neuro-task-starter
+    link: 'https://github.com/brown-ccv/neuro-task-starter'
 language:
   - javascript
-  - python
 lab:
-  - name: Lab name
+  - name: Borton
+    institution: Brown University
+    principalInvestigator: David Borton
+    developers:
+      - Nicole Provenza
+      - Evan Dastin-van Rijn
+    website: 'http://borton.engin.brown.edu/'
+  - name: CCV
     institution: Brown University
     principalInvestigator: null
-    developers: null
-    website: null
+    developers:
+      - Fernando Gelin
+    website: 'https://ccv.brown.edu'
 platform:
   desktop:
     windows: true
@@ -30,6 +40,6 @@ features:
   eegTrigger: true
   mturk: true
 tags:
-  - msit
-  - numbers
+  - cognitive control
+  - stroop
 
