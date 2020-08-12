@@ -16,8 +16,13 @@ lab:
     principalInvestigator: Michael J Frank
     developers:
       - Wasita Mahaphanit
-      - Rashi Dhar
     website: 'https://lnccbrown.com'
+  - name: CCV
+    institution: Brown University
+    principalInvestigator: null
+    developers:
+      - Rashi Dhar
+    website: 'https://ccv.brown.edu'
 platform:
   desktop:
     windows: true
