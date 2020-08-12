@@ -1,0 +1,63 @@
+taskName: Beads Task
+about:
+  description: >-
+    Evidence accumulation task: draw beads to guess whether the majority of
+    beads in the jar are blue or orange
+  deployment: null
+  sourceCode:
+    access: private
+    link: null
+  publication: null
+framework:
+  - name: neuro-task-starter
+    link: 'https://github.com/brown-ccv/neuro-task-starter'
+language:
+  - javascript
+lab:
+  - name: Frank
+    institution: Brown University
+    principalInvestigator: Michael Frank
+    developers:
+      - Michael Frank
+      - Wasita Mahaphanit
+    website: 'http://ski.cog.brown.edu/'
+  - name: Nassar
+    institution: Brown University
+    principalInvestigator: Matt Nassar
+    developers:
+      - Matt Nassar
+    website: 'https://www.lnccbrown.com/matt-nassar'
+  - name: Borton
+    institution: Brown University
+    principalInvestigator: David Borton
+    developers:
+      - Nicole Provenza
+      - Evan Dastin-van Rijn
+    website: 'http://borton.engin.brown.edu/'
+  - name: CCV
+    institution: Brown University
+    principalInvestigator: null
+    developers:
+      - Fernando Gelin
+      - Mary McGrath
+    website: 'https://ccv.brown.edu'
+platform:
+  desktop:
+    windows: true
+    linux: true
+    mac: true
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: true
+  browser: true
+  docker: false
+  eegTrigger: true
+  mturk: true
+tags:
+  - evidence
+  - accumulation
+  - decision making
+  - reward
+
