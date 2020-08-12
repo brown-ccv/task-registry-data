@@ -23,9 +23,9 @@ about:
   publication: https://example.com                # [String::URL, optional]
 framework:
   - name: FRAMEWORK_1                             # [Array::String, optional]
-    link: LINK_TO_FRAMEWORK_1                     # [String::URL, optional] 
+    link: LINK_TO_FRAMEWORK_1                     # [String::URL, required] 
   - name: FRAMEWORK_2                             # [Array::String, optional]
-    link: LINK_TO_FRAMEWORK_2                     # [String::URL, optional]
+    link: LINK_TO_FRAMEWORK_2                     # [String::URL, required]
 language:                                         # [Array::String, optional]
   - LANGUAGE_1
   - LANGUAGE_2
