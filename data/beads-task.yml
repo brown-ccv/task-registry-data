@@ -14,11 +14,11 @@ framework:
 language:
   - javascript
 lab:
-  - name: Frank
+  - name: LNCC
     institution: Brown University
-    principalInvestigator: Michael Frank
+    principalInvestigator: Michael J Frank
     developers:
-      - Michael Frank
+      - Michael J Frank
       - Wasita Mahaphanit
     website: 'http://ski.cog.brown.edu/'
   - name: Nassar
