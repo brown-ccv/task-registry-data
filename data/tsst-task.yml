@@ -6,6 +6,9 @@ about:
     access: public
     link: 'https://github.com/brown-ccv/task-tsst'
   publication: null
+  references:
+    - https://example.com 
+    - https://example.com 
 framework:
   - name: neuro-task-starter
     link: 'https://github.com/brown-ccv/neuro-task-starter'
