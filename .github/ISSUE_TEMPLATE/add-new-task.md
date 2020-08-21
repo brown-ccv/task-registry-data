@@ -21,6 +21,9 @@ about:
     access: private/public                        # [String, required] Stating if the GitHub repository is private or public.
     link: https://github.com/example/task         # [String::URL, optional] If the repository is public, provide URL.
   publication: https://example.com                # [String::URL, optional]
+  references:                                     # [Array::String::URL, optional]
+    - REFERENCE_LINK_1                            
+    - REFERENCE_LINK_2
 framework:
   - name: FRAMEWORK_1                             # [Array::String, optional]
     link: LINK_TO_FRAMEWORK_1                     # [String::URL, required] 
