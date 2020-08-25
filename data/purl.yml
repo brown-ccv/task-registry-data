@@ -1,0 +1,44 @@
+taskName: PURL
+about:
+  description: >-
+    Perceptual unertainty reward (or reinforcement) learning (PURL) task. 1st
+    part is a learning and decision making task. 2nd part is a surprise
+    recall/episodic memory test. Involves perceptual category ambiguous stimuli.
+  deployment: null
+  sourceCode:
+    access: private
+    link: 'https://github.com/lnccbrown/perceptual-uncertainty-mturk-task'
+  publication: null
+framework:
+  - name: jsPsych
+    link: 'https://www.jspsych.org'
+language:
+  - JavaScript
+lab:
+  - name: LNCC
+    institution: Brown University
+    principalInvestigator: Michael J Frank
+    developers:
+      - Wasita Mahaphanit
+      - Andra Geana
+    website: 'https://lnccbrown.com'
+platform:
+  desktop:
+    windows: true
+    linux: true
+    mac: true
+  mobile:
+    ios: false
+    android: false
+features:
+  electron: false
+  browser: true
+  docker: false
+  eegTrigger: false
+  mturk: true
+tags:
+  - learning
+  - decision making
+  - memory
+  - perceptual uncertainty
+
