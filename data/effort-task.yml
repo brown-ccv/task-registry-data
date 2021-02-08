@@ -6,8 +6,8 @@ about:
     link: 'https://github.com/lnccbrown/task-effort'
   publication: null
 framework:
-  - name: neuro-task-starter
-    link: https://github.com/brown-ccv/neuro-task-starter
+  - name: honeycomb
+    link: https://github.com/brown-ccv/honeycomb
 language:
   - JavaScript
 lab:

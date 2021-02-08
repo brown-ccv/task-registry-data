@@ -9,8 +9,8 @@ about:
     link: null
   publication: null
 framework:
-  - name: neuro-task-starter
-    link: 'https://github.com/brown-ccv/neuro-task-starter'
+  - name: honeycomb
+    link: 'https://github.com/brown-ccv/honeycomb'
 language:
   - javascript
 lab:
