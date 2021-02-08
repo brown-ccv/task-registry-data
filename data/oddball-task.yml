@@ -7,8 +7,8 @@ about:
     link: 'https://github.com/brown-ccv/task-oddball'
   publication: 'https://psycnet.apa.org/record/1981-20721-001'
 framework:
-  - name: neuro-task-starter
-    link: 'https://github.com/brown-ccv/neuro-task-starter'
+  - name: honeycomb
+    link: 'https://github.com/brown-ccv/honeycomb'
 language:
   - javascript
 lab:
