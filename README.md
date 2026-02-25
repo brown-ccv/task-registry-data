@@ -1,5 +1,8 @@
 # Repository with data for Behavioral Task Hub
 
+![Static Badge](https://img.shields.io/badge/ARCHIVED-red)
+
+**This repo was archived February 2026, due to inactivity.**
 ---
 
 To register your task data:
